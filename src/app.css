@@ -1,0 +1,41 @@
+:root {
+  --main-blue: #1F2535;
+}
+
+header {
+  background: var(--main-blue);
+  color: white;
+  padding: 10px 30px 60px 40px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  color: var(--main-blue);
+  padding: 50px; 
+}
+
+section div {
+  width: 20%;
+}
+
+section img {
+  width: 80%;
+  float: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  border-radius: 5px;
+  background: white;
+  color: var(--main-blue);
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 30px;
+}
