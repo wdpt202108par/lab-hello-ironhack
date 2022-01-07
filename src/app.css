@@ -1,0 +1,144 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#firstpart {
+    background-color:rgba(15, 20, 36, 0.904);
+    color: white; 
+    display: flex;
+    height: 40vw;
+}
+
+#left {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#left h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 600%;
+    margin-top: 5vw;
+    margin-bottom: 10px;
+    line-height: 0.9;
+}
+
+#left p {
+    margin-bottom : 60px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#left a {
+    color: rgba(15, 20, 36, 0.904);
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#logo {
+    width: 800px;
+    margin-left:auto;
+}
+
+#reactlogo1 {
+    background-image: url(/images/react-logo.svg);
+    background-size:280px;
+    background-repeat: no-repeat;
+    margin-top: 2vw;
+    margin-left: 15vw;
+    width: 500px;
+    height: 250px;
+}
+
+#reactlogo2 {
+    background-image: url(/images/react-logo.svg);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-top: 0.5vw;
+    margin-left: 22vw;
+    width: 500px;
+    height: 250px;
+}
+
+#reactlogo3 {
+    background-image: url(/images/react-logo.svg);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-top: -8vw;
+    margin-left: 12vw;
+    width: 500px;
+    height: 250px;
+}
+
+
+#right {
+    width: 90px;
+    margin-left:auto;
+    margin-top: 20px;
+}
+
+#reactlogo4 {
+    background-image: url(/images/react-logo.svg);
+    background-size:120px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-top: 10vw;
+    width: 90px;
+    height: 130px;
+}
+
+#reactlogo5 {
+    background-image: url(/images/react-logo.svg);
+    background-size:120px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-top: 2vw;
+    width: 90px;
+    height: 130px;
+}
+
+#reactlogo6 {
+    background-image: url(/images/react-logo.svg);
+    background-size:120px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-top: 0.1vw;
+    width: 90px;
+    height: 130px;
+}
+
+#secondpart {
+    display: flex;
+}
+
+article {
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+article h2 {
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+article p {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 110%;
+}
+
+article span {
+    display: flex;
+    flex-direction: column;
+}
+
+article img {
+    width: 120px;
+}
