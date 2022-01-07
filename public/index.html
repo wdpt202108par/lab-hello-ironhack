@@ -5,48 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first React App</title>
     <style>
-      .app{
-        color: white;
-        justify-content: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-      }
-
-      p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
-      }
-
-      .container{
+      #container{
         display: flex;
         flex-direction: column;
         padding: 10px, 10px, 10px;
         width: 100%;
         height: 70vh;
         background-color: #0d1d45;
-      }
-      
-      .container, p, h1{
         align-items: flex-start;
         justify-content: center;
-        padding-left: 40px;
         font-size: 50px;
       }
 
-      button{
-        width: 80px;
+      #container-txt {
+        width: 50%;
+        margin-bottom: 6%;
       }
 
-      .box{
-         display: flex;
-         gap: 20px;
-         justify-content: center;
+      #container-txt > h1{
+        color: white;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.9em;
+        font-weight: bold;
+        line-height:6rem;
+        margin-bottom: 0;
+        padding-left: 40px;
+      }
+
+      #container-txt > p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.5em;
+        color: white;
+        line-height: 0.5rem;
+        padding-left: 40px;
+      }
+
+      .ironhack-logo{
+        padding-left: 40px;
+        padding-top: 50px;
+      }
+
+      .menu-icon{
+        display:flex;
+        margin-left: auto;
+      }
+
+      #container-txt > button{
+        width: 22%;
+        height: 14%;
+        margin-left: 40px;
+        font-size: 0.4em;
+        margin-top: 6%;
+      }
+
+      #box{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 8%;
       }
      
+      #box > div > .img{
+        width: 140px;
+        text-align: start;
+      }
 
-      .img{
-        padding: 40px;
-        width: 80px;
-        height: 80px;
+      #box > div {
+        width: 185px;
+        padding-right: 20px;
+      }
+
+      #box > div > h3 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.6em;
+        letter-spacing: 2px;
+      }
+
+      #box > div > p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: darkgray;
+        font-size:1.1em;
       }
     </style>
   </head>
