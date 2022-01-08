@@ -11,6 +11,20 @@ div{
     margin:auto;
 }
 
+header{
+    background-color: #0e0e0e;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+}
+
+nav{
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 section{
     margin: auto;
     height: 40%;
@@ -50,6 +64,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 50px;
 }
 
 article{
